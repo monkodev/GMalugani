@@ -1,0 +1,165 @@
+html {
+	background: url(../images/background5.jpg) no-repeat center center fixed;
+	  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Helvetica Neue',sans-serif;
+}
+
+.prof-box {
+	width: 400px;
+	height:400px;
+	background: rgba(0,0,0,0.4);
+	padding: 40px;
+	color: white;
+	margin-right: 90px;
+	float: right;
+	margin-top: 50px;	
+	text-align: center;
+	border-radius: 2%;
+}
+
+.prof-box a{
+	color: white;
+	text-decoration: none;
+}
+
+.prof-pic {
+	border-radius: 50%;
+	height: 120px;
+	width: 110px;
+}
+
+h1 {
+	font-weight: 80;
+	letter-spacing: 5;
+	font-size: 30px;
+}
+
+p {
+	font-weight: 200;
+	letter-spacing: 1;
+}
+
+.buttonapple {
+	float: right;
+	margin-top: 0px;
+	margin-right: 10px;
+
+}
+.translate {
+		height: 40px;
+	width: 80px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 60px;
+  float: right;
+  text-align: right;
+  display: block;
+  width: 95%;
+}
+.ghost-button {
+  display: inline-block;
+  width: 200px;
+  padding: 8px;
+  color: #fff;
+  border: 1px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+}
+
+.ghost-button:hover,
+.ghost-button:active {
+  background-color: #fff;
+  color: #000;
+}
+
+.ghost-button-transition {
+  display: inline-block;
+  width: 200px;
+  padding: 8px;
+  color: #fff;
+  border: 2px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  transition: background-color 0.2s ease-out,
+              color 0.2s ease-out;
+}
+.ghost-button-transition:hover,
+.ghost-button-transition:active {
+  background-color: #fff;
+  color: #000;
+  transition: background-color 0.3s ease-in,
+              color 0.3s ease-in;
+}
+
+.social-icons {
+	font-size: 40px;
+}
+
+.social-icons a {
+	color:white;
+}
+.linea {
+	width: 325px;
+	margin:0 auto;
+	border-top: 1px solid white;
+}
+.switch {
+	opacity: 0 ; 
+}
+
+.switch-btn {
+	width: 40px;
+	height: 20px;
+	background:#b3b3b3;
+	position: relative;
+	border-radius: 20px;
+	box-shadow: inset 0 3px 10px rgba(0,0,0,.3);
+}
+.switch-btn:before {
+	content: '';
+	position: absolute;
+	height: 16px;
+	width: 16px;
+	background: linear-gradient(#FFF,#f2f2f2);
+	left: 2px;
+	top: 2px;
+	cursor: pointer;
+	border-radius: 50%;
+	transition: all 250ms ease-out;
+	box-shadow: 0 8px 6px -4px rgba(0,0,0,.25)
+}
+input[type=checkbox]:checked + .switch-btn:before {
+	left: 22px;
+}
+
+input[type=checkbox]:checked + .switch-btn {
+	background:#b3b3b3;
+}
+
+.altlogo {
+	height: 30px;
+	vertical-align: middle;
+}
+.arriba {
+	display:inline-block;
+	padding: 8px;
+	background: rgba(0,0,0,0.4);
+	font-size: 20px;
+	cursor: pointer;
+	position: fixed;
+	top: 10px;
+	right: 80px;
+	color: white;
+	height: 20px;
+	border-radius: 25%;
+}
+.arriba a {
+	color: white;
+}
